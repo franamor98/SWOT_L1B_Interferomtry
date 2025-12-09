@@ -17,10 +17,8 @@ explanatory Jupyter notebooks that document each processing step.
 ---
 
 ## Repository structure
-src/
-    Intf_processor.py  # SWOT interferometric processing class
-notebooks/
-    *.ipynb # Step-by-step explanatory notebooks
+- src/ Intf_processor.py  # SWOT interferometric processing class
+- notebooks/ Step-by-step explanatory notebooks
 environment.yml # Conda environment specification
 
 
@@ -58,6 +56,6 @@ intermediate interferometric products (phase, coherence, height, σ⁰).
 The code is intended for research and diagnostic purposes.
 
 
-Author
+## Author
 
 Fran Amor, UiT
