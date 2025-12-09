@@ -19,7 +19,7 @@ explanatory Jupyter notebooks that document each processing step.
 ## Repository structure
 - src/ Intf_processor.py  # SWOT interferometric processing class
 - notebooks/ Step-by-step explanatory notebooks
-environment.yml # Conda environment specification
+- environment.yml # Conda environment specification
 
 
 
