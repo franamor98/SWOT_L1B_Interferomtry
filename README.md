@@ -9,7 +9,7 @@ The code implements an end-to-end workflow including:
 - Gamma-weighted multilooking
 - Optional Goldstein phase filtering
 - Interferometric height inversion
-- Geolocation and radiometric backscatter (σ⁰)
+- Geolocation. Simplified. Spherical Earth toy model.
 
 The processing is exposed through a single class and accompanied by
 explanatory Jupyter notebooks that document each processing step.
