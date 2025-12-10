@@ -115,7 +115,7 @@ def ecef_to_llh(x, y, z):
     sin_lat = np.sin(lat)
     N = a / np.sqrt(1 - e2 * sin_lat**2)
     h = r / np.cos(lat) - N
-    return lat, lon, h
+    return lat, lon, h #h is shitty...
 
 
 def geolocate_swot(h_abs, psi, sat_pos, sat_vel, side):
@@ -140,7 +140,7 @@ def geolocate_swot(h_abs, psi, sat_pos, sat_vel, side):
     X = radius * g_hat
     lat, lon, h = ecef_to_llh(X[..., 0], X[..., 1], X[..., 2])
 
-    return np.degrees(lat), np.degrees(lon), h
+    return np.degrees(lat), np.degrees(lon), h #h is shitty...
 
 
 # ==========================================================
